@@ -53,12 +53,6 @@ public class Main {
             listaBrojeva.add(niz);
         }
 
-//        for(Integer[] i : listaBrojeva){
-//            System.out.println(i[0]);
-//            System.out.println(i[1]);
-//        }
-
-
         for(int i=0; i<splitedPassword.size(); i++){
             String password = splitedPassword.get(i);
             char letter = splitedChar.get(i);
@@ -78,9 +72,5 @@ public class Main {
         }
 
         System.out.println(numOfCorrectPasswords);
-
-//        for (String str : listOfStrings){
-//            System.out.println(str);
-//        }
     }
 }
